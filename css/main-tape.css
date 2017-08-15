@@ -30,10 +30,8 @@ navbar-brand{
     margin-left: 0rem;
     margin-top: 0.5rem;
     
-    
 }
 */
-
 
 /*
 .navbar-brand { position: relative; z-index: 2; }
@@ -65,7 +63,6 @@ button.btn.btn-outline-danger.active, .btn-outline-danger:active, .open>.btn-out
 }
 */
 
-
 .nav-item  {
     text-decoration: none;
     list-style: none;
@@ -73,27 +70,26 @@ button.btn.btn-outline-danger.active, .btn-outline-danger:active, .open>.btn-out
     
 }
 
-ul a button .nav-style{
+ul a button .nav-style {
     
     text-decoration: none;
 }
-
 
 /*.nav-item:hover{*/
 /*   border-bottom: 2px solid crimson;  */
     
 /*} */
+.wow { visibility: hidden; 
+}
 
-
-
-.nav-style{
+.nav-style {
     
     text-decoration: none;
     border-bottom: none;
     list-style: none;
 }
 
-.nav-space{
+.nav-space {
     margin-bottom: 1rem;
     margin-top: 1rem;
     border: none;
@@ -108,16 +104,14 @@ ul a button .nav-style{
     
 */
     
-.panel-footer{
+.panel-footer {
     
     height:15rem;
     width:100%;
     
 }   
-    
-}
 
-.icon-bar{
+.icon-bar {
     
     color:white;
 }
@@ -132,14 +126,10 @@ ul a button .nav-style{
     margin-bottom: 1rem;
 }
 
-#speck-image{
+#speck-image {
     
     float: left;
 }
-
-
-
-
 /*
 .logo:hover{
     transform:scale(2)
@@ -150,13 +140,13 @@ ul a button .nav-style{
 */
 
 
-a:hover{
+a:hover {
     
     text-decoration: none;
 }
 
 
-a{
+a {
     
     transition: all 4.3s ease-out;
     transition-property: all;
@@ -167,9 +157,7 @@ a{
 }
 /*===============Megatron CSS ============================================================================================================*/
 
-
-
-#megatron{
+#megatron {
     
     
 }
@@ -179,56 +167,43 @@ a{
     background-image: url(../img/headphones002.jpg);
     background-size: cover;
     
-    
 }
 
-.bg-mega{
+.bg-mega {
     background-color:rgba(104, 111, 122,0.4);
     width:inherit;
     height: inherit;
     
-    
 }
 
-.mega-title   {
+.mega-title {
     
     color:crimson;
 }
 
-
-
-
-.display-3   {
+.display-3 {
     
     color: #fff;
     margin-top: 1.5rem;
 }
 
-
-
-.fa.fa-twitter   {
+.fa.fa-twitter {
     color:#777;
     transition:0.9s;
-    
     
 }
 
 
-.fa-facebook-official   {
+.fa-facebook-official {
     color:#777;
     transition:0.9s;
-    
     
 }
 
-
-
-.fa-instagram   {
+.fa-instagram {
     color:#777;
     transition:0.9s;
-    
-    
-    
+   
 }
 
 .fa-twitter:hover {
@@ -237,26 +212,22 @@ a{
     
 }
 
-
-.fa-facebook-official:hover{
+.fa-facebook-official:hover {
     
     color:#3B5998;
     transition:0.9s;
 }
 
-
-
-.fa-instagram:hover{
+.fa-instagram:hover {
     
     color:#3F729B;
     transition:0.9s;
     
 }
 
-
 /*===============Genres Parallax CSS ============================================================================================================*/
 
-#Genres{
+#Genres {
     margin-top: -2rem;
     background-image:url(../img/pixel_weave.png);
     
@@ -264,20 +235,17 @@ a{
 }
 
 
-.fa-music{
-    
-    
-    
+.fa-music {
+      
 }
 
-.music-info{
+.music-info {
     color:#333;
     
     
 }
 
-
-.card-section-title{
+.card-section-title {
     
     align-content: center;
     text-align: center;
@@ -288,36 +256,30 @@ a{
     
 }
 
-.lead{
+.lead {
     
     color: white;
 }
 
-
-
-.card-title{
+.card-title {
     margin-top: 2rem;
-    
-    
-    
+      
 }
 
-.card-text{
+.card-text {
     margin-top: 3.3rem;
-    
-    
+     
     
 }
 
-.my-2{
+.my-2 {
     
     color: white;
     
 }
 
-.card-block{
+.card-block {
     
-
     width: 20rem;
     float: left;
     text-align: center;
@@ -328,17 +290,16 @@ a{
     
 }
 
-
 /*===============Buy Sell Parallax CSS ============================================================================================================*/
 
 
-.buy-header{
+.buy-header {
     margin-top: -2rem;
     color:white;
     
 }
 
-.buy-banner{
+.buy-banner {
     
     text-align:center;
     background: url(../img/library.jpg) center repeat fixed;
@@ -350,33 +311,29 @@ a{
     
 }
 
-#Buy-SellBanner{
+#Buy-SellBanner {
 
 }
-
-
 
 /*===============Media Queries CSS ============================================================================================================*/
 
-#About{
+#About {
     
     background-image: url(../img/checkered_pattern.png);
     height:inherit;
-    margin-bottom:inherit;
-    
+    margin-bottom:inherit;  
 }
 
-.About-intro     {
+.About-intro {
     
     color:#333;
     margin-bottom: 4rem;
     text-align: center;
     margin-top: 10rem;
     
-    
     }
 
-#about-card    {
+#about-card {
     
     background-color: white;
     text-align: left;
@@ -389,7 +346,7 @@ a{
     
          }
 
-#special-about-card     {
+#special-about-card  {
     
     border-top:none;
     background-color:#fff;
@@ -400,7 +357,7 @@ a{
     
         }
 
-.mike          {
+.mike {
     
     width:100%;
     height:240px;
@@ -408,7 +365,7 @@ a{
     
          }
 
-.center-block     {
+.center-block  {
     
     display: block;
     margin-left: auto;
@@ -417,7 +374,7 @@ a{
          }
 
 
-#mike-image      {
+#mike-image {
     
     
     height: 210px;
@@ -429,11 +386,8 @@ a{
     
          }
 
-
-.Absolute-Center       {
+.Absolute-Center {
   
-    
-    
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -451,19 +405,18 @@ a{
   
            }
 
-.col-md-12{}
+.col-md-12 {}
 
 /*===============Events CSS ============================================================================================================*/
 
 
-#Events         {
+#Events {
     
     height:inherit;
     width: 100%;
     margin-bottom: 0rem;
     
-    
-              }
+ }
 
 .Event-tron {
     background-image: url(../img/play-record.jpg);
@@ -485,32 +438,24 @@ a{
 }
 
 
-#special-card  {
+#special-card {
     
     border-top:none;
     background-color:rgba(239, 239, 239,0.9);
     
 }
 
-
 /*===============Contact Form CSS ============================================================================================================*/
 
-
-#Contact{
+#Contact {
     
     width: 100%;
     height:inherit;
     background-image: url(../img/sayagata-400px.png);
-    background-size: cover;
-    
-    
-    
-    
+    background-size: cover;  
 }
 
-.contact-announcement
-
-{
+.contact-announcement {
     
     
     margin-bottom: 4rem;
@@ -519,43 +464,29 @@ a{
     text-align: center;
     
     
-    
 }
 
-
-
-
-
-.contact-spot{
+.contact-spot {
     
     margin-top: auto;
     margin-bottom: 2rem;
     height:inherit;
     margin-left:4rem;
-    
-    
-    
-    
-    
-    
+       
 }
 
 
 /*===============Contact Form CSS ============================================================================================================*/
 
-#Footer{
+#Footer {
     
     height:inherit;
     width: 100%;
     background-color: crimson;
-    
-    
-    
-    
-    
+      
 }
 
-#footer-address{
+#footer-address {
     
     margin-left: 2rem;
     margin-top: 2rem;
@@ -566,13 +497,13 @@ a{
     
 }
 
-.footer-icons{
+.footer-icons {
     color:white;
     margin-left:1rem;
     
 }
 
-.footer{
+.footer {
     
     text-align: right;
     margin-top: 2rem;
@@ -582,12 +513,12 @@ a{
     }
 
 
-.insta-link{
+.insta-link {
     color:white;
     
 }
 
-.insta-link:hover   {
+.insta-link:hover {
     
     color: lightgray;
     
@@ -597,22 +528,22 @@ a{
 
 
 
-.hidden{
+.hidden {
      opacity:0;
 }
-.visible{
+.visible {
      opacity:1;
 }
 
 
 /*----------------Contact form CSS----------------------------------------------------------------------------------------------------*/
 
-.contact-form  { 
+.contact-form { 
     margin-top:15px;
 
 }
 
-.contact-form .textarea  { 
+.contact-form .textarea { 
     
     min-height:220px; resize:none;
 }
@@ -621,12 +552,12 @@ a{
     box-shadow:none; border-color:#eee; height:49px;
 }
 
-.form-control:focus  { 
+.form-control:focus { 
     box-shadow:none; border-color:#00b09c;
 
 }
 
-.form-control-feedback  { 
+.form-control-feedback { 
     
     line-height:50px;
 
@@ -637,7 +568,7 @@ a{
 
 }
 
-.main-btn:hover  { 
+.main-btn:hover { 
     background:#00a491;color:#fff;
 }
 
@@ -646,11 +577,6 @@ a{
     line-height: 50px;
     top: 0px;
 }
-
-
-
-
-
 
 
 /*===============Media Queries CSS ============================================================================================================*/
@@ -664,39 +590,10 @@ a{
     .navbar .nav-collapse {
         margin: 7.5px auto; padding: 0; 
     }
+    
     .navbar .nav-collapse .navbar-form { margin: 0; 
     }
     .nav-collapse>li { 
         float: none; 
     }
 }
-
-
-
-
-
-
-/*
-        @media (min-width: 768px){
-.col-md-4 {
-     float: left; 
-    width: 33.333333%;
-}
-
-            }
-
-@media (max-width: 991px){
-.navbar-toggleable-md .navbar-nav {
-    margin-bottom: 1.8rem;
-    margin-top: 7rem;
-    text-align: center;
-    }
-}
-
-.selector-for-some-widget {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-*/
