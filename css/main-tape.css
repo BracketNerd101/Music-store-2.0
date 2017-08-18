@@ -162,7 +162,7 @@ a {
     
 }
 
-.jumbotron  {
+ .headphone-intro  {
     background-color: rgba(104, 111, 122,0.4);
     background-image: url(../img/headphones002.jpg);
     background-size: cover;
@@ -249,8 +249,8 @@ a {
     
     align-content: center;
     text-align: center;
-    margin-top: 4rem;
     margin-bottom: 6rem;
+    padding-top: 3rem;
     font-family:sans-serif;
     color:#333;
     
@@ -294,7 +294,7 @@ a {
 
 
 .buy-header {
-    margin-top: -2rem;
+    margin-top: 4rem;
     color:white;
     
 }
@@ -306,7 +306,7 @@ a {
     padding: 140px 0;
     background-size: cover;
     color:white;
-    height: 6rem;
+    height: 35rem;
     width: 100%;
     
 }
@@ -326,12 +326,19 @@ a {
 
 .About-intro {
     
-    color:#333;
+    color:#ffffff;
     margin-bottom: 4rem;
     text-align: center;
     margin-top: 10rem;
     
-    }
+}
+
+.intro-about-tapes {
+    background-image: url(../img/microphone.jpg);
+    background-size: cover;
+    height:40rem;
+    
+}
 
 #about-card {
     
